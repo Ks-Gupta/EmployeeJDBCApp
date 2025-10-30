@@ -14,7 +14,6 @@ public class EmployeeCRUD {
             props.load(fis);
         } catch (IOException e) {
             System.err.println("Failed to load .env file: " + e.getMessage());
-            // Continue; url/user/password may be null and will cause a SQLException below
         }
 
         String url = props.getProperty("DB_URL");
