@@ -1,1 +1,6 @@
+config.properties
 .env
+
+# Ignore build files
+*.class
+*.jar
